@@ -1,39 +1,45 @@
 # Booking-app
+
 This is a simple booking application built using Go. It allows users to book tickets for the Go Conference and displays real-time ticket availability.
-# Features 
-Ticket booking system for a conference
-Real-time updates on ticket availability
-User-friendly prompts for booking
-Confirmation message upon successful booking
 
-# Project Structure
+## Features
 
-Booking-app/
-│
-├── Booking-app/
-│   ├── go.mod         # Go module file
-│   ├── main.go        # Main application file
-│   └── helper/
-│       └── helper.go  # Helper functions
-├── .git/              # Git repository configuration
-└── README.md          # Project documentation
+- Ticket booking system for a conference
+- Real-time updates on ticket availability
+- User-friendly prompts for booking
+- Confirmation message upon successful booking
 
-# Installation
+## Project Structure
+
+
+
+Booking-app/ │ ├── Booking-app/ │ ├── go.mod # Go module file │ ├── main.go # Main application file │ └── helper/ │ └── helper.go # Helper functions ├── .git/ # Git repository configuration └── README.md # Project documentation
+
+
+
+## Installation
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/Booking-app.git
-cd Booking-app
+    ```bash
+    git clone https://github.com/your-username/Booking-app.git
+    cd Booking-app
+    ```
 
 2. Initialize Go modules (if not already done):
 
-go mod init booking-app
-go mod tidy
+    ```bash
+    go mod init booking-app
+    go mod tidy
+    ```
 
-# Running the Application
+## Running the Application
 
 To run the booking application, use the following command:
+
+```bash
 go run ./Booking-app/main.go ./Booking-app/helper/helper.go
+
 
 # Example Usage
 Welcome to Go Conference booking application
