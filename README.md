@@ -13,8 +13,14 @@ This is a simple booking application built using Go. It allows users to book tic
 
 
 
-Booking-app/ │ ├── Booking-app/ │ ├── go.mod # Go module file │ ├── main.go # Main application file │ └── helper/ │ └── helper.go # Helper functions ├── .git/ # Git repository configuration └── README.md # Project documentation
 
+* Booking-app/
+    * go.mod: Go module file for dependencies
+    * main.go: Main application file
+    * helper/
+        * helper.go: Helper functions
+* .git/: Git repository configuration (ignored in version control)
+* README.md: Project documentation (you're reading it now!)
 
 
 ## Installation
@@ -39,9 +45,12 @@ To run the booking application, use the following command:
 
 ```bash
 go run ./Booking-app/main.go ./Booking-app/helper/helper.go
+```
 
 
 # Example Usage
+
+```
 Welcome to Go Conference booking application
 We have total of 50 tickets and 50 are still available.
 Get your tickets here to attend
@@ -52,10 +61,13 @@ Enter number of tickets: 3
 List of bookings is [{sonali singh ssona@gmail.com 3}]
 Thank you sonali singh for booking 3 tickets. You will receive a confirmation email at ssona@gmail.com
 47 tickets remaining for Go Conference
+```
 
 # Contributing
 
+```
 Feel free to submit issues or pull requests. Contributions are welcome!
+```
 
 
 
